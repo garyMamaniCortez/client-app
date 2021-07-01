@@ -18,5 +18,6 @@ export class ClienteService {
     // o tambien se puede con la libreria map
     // con return this.http.get(this.urlEndPoint).pipe(
     //  map( function(response){return response as Cliente[] })
+    // o map( (response) => response as Cliente[] )
   }
 }
